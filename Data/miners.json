@@ -1,0 +1,81 @@
+{
+    "0": {
+        "className": "Desc_OilPump_C",
+        "allowedResources": [
+            "Desc_LiquidOil_C"
+        ],
+        "allowLiquids": true,
+        "allowSolids": false,
+        "itemsPerCycle": 2000,
+        "extractCycleTime": 1.0
+    },
+    "1": {
+        "className": "Desc_MinerMk2_C",
+        "allowedResources": [
+            "Desc_OreIron_C",
+            "Desc_Coal_C",
+            "Desc_Sulfur_C",
+            "Desc_SAM_C",
+            "Desc_OreBauxite_C",
+            "Desc_OreGold_C",
+            "Desc_OreCopper_C",
+            "Desc_RawQuartz_C",
+            "Desc_Stone_C",
+            "Desc_OreUranium_C"
+        ],
+        "allowLiquids": false,
+        "allowSolids": true,
+        "itemsPerCycle": 1,
+        "extractCycleTime": 0.5
+    },
+    "2": {
+        "className": "Desc_FrackingExtractor_C",
+        "allowedResources": [
+            "Desc_LiquidOil_C",
+            "Desc_NitrogenGas_C",
+            "Desc_Water_C"
+        ],
+        "allowLiquids": true,
+        "allowSolids": false,
+        "itemsPerCycle": 1000,
+        "extractCycleTime": 1.0
+    },
+    "3": {
+        "className": "Desc_MinerMk3_C",
+        "allowedResources": [
+            "Desc_OreIron_C",
+            "Desc_Coal_C",
+            "Desc_Sulfur_C",
+            "Desc_SAM_C",
+            "Desc_OreBauxite_C",
+            "Desc_OreGold_C",
+            "Desc_OreCopper_C",
+            "Desc_RawQuartz_C",
+            "Desc_Stone_C",
+            "Desc_OreUranium_C"
+        ],
+        "allowLiquids": false,
+        "allowSolids": true,
+        "itemsPerCycle": 1,
+        "extractCycleTime": 0.25
+    },
+    "4": {
+        "className": "Desc_MinerMk1_C",
+        "allowedResources": [
+            "Desc_OreIron_C",
+            "Desc_Coal_C",
+            "Desc_Sulfur_C",
+            "Desc_SAM_C",
+            "Desc_OreBauxite_C",
+            "Desc_OreGold_C",
+            "Desc_OreCopper_C",
+            "Desc_RawQuartz_C",
+            "Desc_Stone_C",
+            "Desc_OreUranium_C"
+        ],
+        "allowLiquids": false,
+        "allowSolids": true,
+        "itemsPerCycle": 1,
+        "extractCycleTime": 1.0
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "0": {
+        "item": "Desc_OreIron_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "1": {
+        "item": "Desc_Coal_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "2": {
+        "item": "Desc_Water_C",
+        "pingColor": {
+            "r": 122,
+            "g": 176,
+            "b": 212,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "3": {
+        "item": "Desc_NitrogenGas_C",
+        "pingColor": {
+            "r": 89,
+            "g": 89,
+            "b": 89,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "4": {
+        "item": "Desc_Sulfur_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "5": {
+        "item": "Desc_SAM_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "6": {
+        "item": "Desc_OreBauxite_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "7": {
+        "item": "Desc_OreGold_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "8": {
+        "item": "Desc_OreCopper_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "9": {
+        "item": "Desc_RawQuartz_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "10": {
+        "item": "Desc_Stone_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "11": {
+        "item": "Desc_OreUranium_C",
+        "pingColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+        },
+        "speed": 1
+    },
+    "12": {
+        "item": "Desc_LiquidOil_C",
+        "pingColor": {
+            "r": 25,
+            "g": 0,
+            "b": 25,
+            "a": 0
+        },
+        "speed": 1
+    }
+}
