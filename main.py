@@ -2,7 +2,7 @@ from os import environ
 from os.path import join, dirname
 from dotenv import load_dotenv
 from flask import Flask, jsonify
-from Funcs.items_getters import get_items
+from Funcs.items_getters import get_items, get_item_by_id, get_item_all_primary_info
 from Funcs.recipes_getters import get_recipes
 from Funcs.schematics_getters import get_schematics
 from Funcs.generators_getters import get_generators
@@ -20,11 +20,22 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({'message': 'Hello, World!'})
+    return jsonify({'message': 'Project Ficsit Codex'})
 
 @app.route('/items')
+@app.route('/items/')
 def items():
     return get_items()
+
+@app.route('/items/<string:id>')
+@app.route('/items/<string:id>/')
+def item_by_id(id):
+    return get_item_by_id(id)
+
+@app.route('/items/<string:id>/primary')
+@app.route('/items/<string:id>/primary/')
+def item_primary_info(id):
+    return get_item_all_primary_info(id)
 
 @app.route('/recipes')
 def recipes():
